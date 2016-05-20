@@ -18,6 +18,7 @@
 		5E98C5201CEF7112000E2CDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E98C51F1CEF7112000E2CDE /* Main.storyboard */; };
 		5E98C5221CEF717D000E2CDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E98C5211CEF717D000E2CDE /* AppDelegate.swift */; };
 		5E98C5251CEF7242000E2CDE /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E98C5241CEF7242000E2CDE /* background.jpg */; };
+		5E98C5271CEF7D42000E2CDE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E98C5261CEF7D42000E2CDE /* Info.plist */; };
 		5EAFABE21CEF6AE70070A7A6 /* RWPickFlavor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EAFABE11CEF6AE70070A7A6 /* RWPickFlavor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5EAFABE91CEF6AE80070A7A6 /* RWPickFlavor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EAFABDE1CEF6AE70070A7A6 /* RWPickFlavor.framework */; };
 		5EAFABEE1CEF6AE80070A7A6 /* RWPickFlavorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAFABED1CEF6AE80070A7A6 /* RWPickFlavorTests.swift */; };
@@ -47,9 +48,9 @@
 		5E98C51F1CEF7112000E2CDE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		5E98C5211CEF717D000E2CDE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E98C5241CEF7242000E2CDE /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		5E98C5261CEF7D42000E2CDE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EAFABDE1CEF6AE70070A7A6 /* RWPickFlavor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RWPickFlavor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EAFABE11CEF6AE70070A7A6 /* RWPickFlavor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWPickFlavor.h; sourceTree = "<group>"; };
-		5EAFABE31CEF6AE70070A7A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EAFABE81CEF6AE80070A7A6 /* RWPickFlavorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RWPickFlavorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EAFABED1CEF6AE80070A7A6 /* RWPickFlavorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RWPickFlavorTests.swift; sourceTree = "<group>"; };
 		5EAFABEF1CEF6AE80070A7A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -186,14 +187,14 @@
 		5EAFABE01CEF6AE70070A7A6 /* RWPickFlavor */ = {
 			isa = PBXGroup;
 			children = (
+				5EAFABE11CEF6AE70070A7A6 /* RWPickFlavor.h */,
 				5E98C4FF1CEF6E2B000E2CDE /* Categories */,
 				5E98C5011CEF6E5D000E2CDE /* Controllers */,
 				5E98C5021CEF6E74000E2CDE /* Factories */,
 				5E98C5031CEF6E89000E2CDE /* Models */,
 				5E98C5231CEF71DF000E2CDE /* Resources */,
 				5E98C5041CEF6E91000E2CDE /* Views */,
-				5EAFABE11CEF6AE70070A7A6 /* RWPickFlavor.h */,
-				5EAFABE31CEF6AE70070A7A6 /* Info.plist */,
+				5E98C5261CEF7D42000E2CDE /* Info.plist */,
 			);
 			path = RWPickFlavor;
 			sourceTree = "<group>";
@@ -302,6 +303,7 @@
 			files = (
 				5E98C5201CEF7112000E2CDE /* Main.storyboard in Resources */,
 				5E98C5251CEF7242000E2CDE /* background.jpg in Resources */,
+				5E98C5271CEF7D42000E2CDE /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
