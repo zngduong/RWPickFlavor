@@ -2,6 +2,6 @@ platform :ios, '8.0'
 use_frameworks!
 
 target 'RWPickFlavor' do
-pod 'Alamofire', '~> 3.4'
+pod 'Alamofire', '~> 2.0'
 pod 'MBProgressHUD', '~> 0.9.0'
 end
